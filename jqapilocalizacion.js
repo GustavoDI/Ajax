@@ -21,7 +21,7 @@
 
 
 $(document).ready(function () {
-    // necesitamo saber si la geolocalizaciomn esta activa
+    // necesitamos saber si la geolocalizacion esta activa
     $("#btn").click(function (e) {
         e.preventDefault();
         if ("geolocation" in navigator) {
